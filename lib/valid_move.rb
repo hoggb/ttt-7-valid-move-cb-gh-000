@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move(board, pos)
+def valid_move?(board, pos)
   if !position_taken? && pos.between?(0,8)
     true
   else
